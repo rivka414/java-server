@@ -22,12 +22,12 @@ public class ControllerClass {
     }
     @PostMapping
     public void addClass(@RequestBody ClassRoom classroom){classServiceInterface.addClass(classroom);}
-  @PutMapping("/{roomNumber}")
-  public void updateClass(@PathVariable int roomNumber,@RequestBody ClassRoom classroom)
-  {
-      classServiceInterface.updateClass(roomNumber,classroom);
-  }
-  @DeleteMapping("/{roomNumber}")
+    @PutMapping("/{roomNumber}")
+    public void updateClass(@PathVariable int roomNumber,@RequestBody ClassRoom classroom)
+    {
+        classServiceInterface.updateClass(roomNumber,classroom);
+    }
+    @DeleteMapping("/{roomNumber}")
     public void deleteClass(@PathVariable int roomNumber){classServiceInterface.deleteClass(roomNumber);}
 
 }
