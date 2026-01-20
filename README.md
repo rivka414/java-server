@@ -93,7 +93,7 @@ DELETE /Class/{roomNumber}
 
 פתחי את הפרויקט ב־IntelliJ
 
-הריצי את המחלקה:
+הרץ את המחלקה:
 
 ProjectRikiDiseldorfApplication
 
